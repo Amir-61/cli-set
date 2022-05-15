@@ -1,5 +1,5 @@
 {
-  "name": "cli-set",
+  "name": "@amir-61/cli-set",
   "type": "module",
   "version": "1.0.0",
   "description": "set plugin for cli",
@@ -28,5 +28,8 @@
     "chalk": "^4.1.2",
     "commander": "^9.2.0",
     "fs": "^0.0.1-security"
-  }
+  },
+  "keywords": [
+    "cli"
+  ]
 }
