@@ -1,7 +1,7 @@
 {
   "name": "@amir-61/cli-set",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "set plugin for cli",
   "main": "Set.js",
   "directories": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^9.2.0",
+    "commander": "^8.1.0",
     "fs": "^0.0.1-security"
   },
   "keywords": [
