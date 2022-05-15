@@ -1,0 +1,32 @@
+{
+  "name": "cli-set",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "set plugin for cli",
+  "main": "Set.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-61/cli-set.git"
+  },
+  "author": "Amir Jafarian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amir-61/cli-set/issues"
+  },
+  "homepage": "https://github.com/Amir-61/cli-set#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "mock-fs": "^5.1.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "fs": "^0.0.1-security"
+  }
+}
