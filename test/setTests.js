@@ -1,12 +1,12 @@
 import assert from 'assert'
 import mock from 'mock-fs';
-import set from '../setHandlers.js'
 import { readFileSync } from 'fs';
+import set from '../setHandlers.js'
 
 describe('SET', function () {
   beforeEach(() => {
       mock({
-        'data.json': "{\"foo\":\"bar2\"}",
+        'data.json': "{\"foo\":\"bar\"}",
       });
   });
   it('should update the existing field', async () => {
@@ -18,9 +18,9 @@ describe('SET', function () {
 
   it('should add the non-existing field', async () => {
     const file = `${process.cwd()}/data.json`
-    await set("bar=newName2")
+    await set("baz=newBazName")
     const result = readFileSync(file, 'utf8');
-    assert.deepStrictEqual(JSON.parse(result), { "foo": "bar2", "bar": 'newName2' });
+    assert.deepStrictEqual(JSON.parse(result), { "foo": "bar", "baz": 'newBazName' });
   });
 
   after(() => {

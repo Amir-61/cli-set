@@ -1,7 +1,7 @@
 {
   "name": "@amir-cli/cli-set",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "set plugin for cli",
   "main": "Set.js",
   "directories": {
