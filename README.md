@@ -3,6 +3,9 @@ This is the GET plugin for [CLI project](https://github.com/Amir-61/cli).
 
 - **NPM:** [@amir-cli/cli-get](https://www.npmjs.com/package/@amir-cli/cli-set), **GITHUB:** [cli-get](https://github.com/Amir-61/cli-set)
 
+![image](https://user-images.githubusercontent.com/10672146/168502071-85fe7815-63ed-4f14-b4ee-8168d8d4f8e0.png)
+
+
 # Usages:
  - #### `SET propertyname=newValue` :
     will change the target object’s member named “propertyname” to have a value equal to “newValue”. If the input value is incompatible (i.e. an int being set to a string), print out an appropriate error message.
