@@ -35,7 +35,7 @@ const validateInputAndConstructNewObj = (newValue, currentObject,fieldName) => {
 
       throw Error(generateValidationError(typeof exitsintValue, 'number'))
     }
-    return {...currentObject, [fieldName]: newValue}
+    return {...currentObject, [fieldName]: parseInt(newValue)}
   }
   // If new value is a Boolean 
   else if (['true', 'false'].includes(newValue)) {
